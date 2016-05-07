@@ -1,0 +1,21 @@
+#inicio {
+	background-image: url('../img/1781-festa1.jpg');
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+
+#inicio h1, #inicio p {
+	color: white;
+	text-shadow:0px 2px 2px rgba(0, 0, 0, 0.4);
+	font-family: 'Bitter';
+}
+
+#banners img {
+	background-size: fill;
+}
+
+.navbar-default {
+	margin: 0;
+}
