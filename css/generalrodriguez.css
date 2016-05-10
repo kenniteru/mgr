@@ -1,0 +1,167 @@
+/* ¿Que hacemos con esto? ¿Lo unificamos en el The Hero?
+
+#inicio {
+	background-image: url('../img/1781-festa1.jpg');
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+}*/
+
+body{
+	background-color: rgb(40, 40, 40); 
+}
+
+header, main{
+	background-color: #FFF; 
+}
+
+h1, h2, h3, h4, h5, h6, figcaption{font-family: 'bitter';}
+
+/* Saitama appears on scene */
+.the-hero{
+	background-color: rgb(20, 20, 20); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #FFF; 
+	text-shadow:0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.the-hero .jumbotron{background-color: rgba(0, 0, 0, 0.5);}
+.the-hero .breadcrumb-container{background-color: rgba(0, 0, 0, 0.75);}
+.the-hero .breadcrumb-container .breadcrumb{background-color: transparent; color: #FFF; margin: 0px;}
+.the-hero .breadcrumb-container .breadcrumb a, .the-hero .breadcrumb-container .breadcrumb li{color: #FFF;}
+.the-hero .breadcrumb-container .breadcrumb a{opacity: 0.75}
+
+/* Header */
+header a.brand {
+	width: 250px; 
+	height: 75px; 
+	display: inline-block;
+	background-image: url(../img/brand-header.svg);
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: contain;
+}
+header .navbar {
+	background-color: rgb(246, 246, 246);
+	border-radius: 0px; margin-bottom: 0px;
+}
+header #searchbox {margin-top: 10px;}
+header .navbar-form button {
+	border: none;
+	background: transparent !important;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 9;
+	padding: 7px 15px 3px 15px;
+	font-size: 16px;
+	color: #aaa;
+	box-shadow: none !important;
+}
+header .navbar-form button {
+    padding: 30px 12px 0px 5px;
+    font-size: 24px !important;
+    line-height: 32px;
+}
+
+/* Main section */
+section.news{padding-top: 30px;}
+
+.row-grid figure {
+    margin-bottom: 24px;
+	position: relative;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+	position: relative;
+}
+
+.row-grid .col-md-8 figure {
+	height: 391px;
+	overflow: hidden;
+}
+
+@media (min-width: 992px){
+	.row-grid .col-md-4 {
+		padding-left: 0;
+	}
+}
+
+.row-grid .col-md-4 figure {
+	height: 173px;
+	overflow: hidden;
+}
+@media (min-width: 992px){
+	.row-grid .col-md-4 figure {
+		height: 180px;
+		margin-bottom: 31px;
+	}
+}
+
+figcaption{
+	color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 15px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* Community alerts */
+	.alert-spot {
+		border-radius: 6px;
+		position: relative;
+		padding: 15px;
+		margin-bottom: 30px;
+		overflow: auto;
+	}
+
+/* Mini thumbs */
+	.list-thumb > div {
+		width: 150px;
+		height: 112px;
+		float: left;
+		overflow: hidden;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		background-color: #EEE;
+		text-align: center;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 15px;
+		border-radius: 4px;
+		position: relative;
+		-webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+		box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
+	}
+	@media (max-width: 1200px){
+		.list-thumb > div {
+			width: 120px;
+			height: 80px;
+		}
+	}
+
+/* Footer */
+footer{
+	color: #FFF; 
+}
+	footer .social.mini a {
+		width: 40px;
+		height: 40px;
+		border-radius: 100%; 
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: rgb(20, 20, 20); 
+		text-indent: -9999px;
+	}
